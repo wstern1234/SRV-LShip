@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <Button>Test</Button>
+        <Button>Test 2</Button>
 
       </div>
     );
