@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Divider } from 'semantic-ui-react';
-import ReactPlayer from 'react-player';
 import './App.css';
+import { Divider } from 'semantic-ui-react';
+import introMessage from './Texts/introMessage';
+// import ReactPlayer from 'react-player/youtube';
 
 class App extends Component {
   render = () => {
@@ -9,17 +10,8 @@ class App extends Component {
       <div className="App">
 
         <Divider />
-        
-        <ReactPlayer
-        
-          url = 'https://youtu.be/MAu9BNxzpcQ'
-          controls = 'true'
-          light = 'true'
-          playing = 'true'
 
-        />
-
-        <Divider />
+        {introMessage()}
 
       </div>
     );

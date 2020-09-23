@@ -1,0 +1,25 @@
+.introMessage {
+
+  text-align: center;
+  font-size: large;
+
+  margin: auto 300px;
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.introMsg {
+
+  color: limegreen;
+  
+}
+
+
+.introGoWolves {
+
+  color: gold;
+  font-size: xx-large;
+
+}
